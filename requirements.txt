@@ -1,0 +1,5 @@
+requests==2.31.0
+web3
+eth-abi==2.2.0
+eth-utils==1.10.0
+hexbytes==0.3.1
