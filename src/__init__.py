@@ -18,17 +18,3 @@ class RPC_URL:
     ZKFair = "https://rpc.zkfair.io"
     Kucoin = "https://rpc-mainnet.kcc.network"
     Manta = 'https://pacific-rpc.manta.network/http'
-
-
-EthereumWeb3 = Web3Helper(RPC_URL.Ethereum)
-PolygonWeb3 = Web3Helper(RPC_URL.Polygon)  # MATIC
-BinanceWeb3 = Web3Helper(RPC_URL.Binance)  # BNB
-LineaWeb3 = Web3Helper(RPC_URL.Linea)  # ETH
-ArbitrumWeb3 = Web3Helper(RPC_URL.Arbitrum)  #
-ZKSyncEraWeb3 = Web3Helper(RPC_URL.ZKSyncEra)  # ETH
-OptimismWeb3 = Web3Helper(RPC_URL.Optimism)  #
-ScrollWeb3 = Web3Helper(RPC_URL.Scroll)  # ETH
-MantleWeb3 = Web3Helper(RPC_URL.Mantle)  # MTL
-ZKFairWeb3 = Web3Helper(RPC_URL.ZKFair)  # USDC
-KucoinWeb3 = Web3Helper(RPC_URL.Kucoin)  # KCS
-MantaWeb3 = Web3Helper(RPC_URL.Manta)
