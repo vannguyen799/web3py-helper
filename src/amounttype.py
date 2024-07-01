@@ -10,3 +10,5 @@ class AMOUNT_TYPE:
     class NONFIXED_DECIMALS(float):
         def __new__(cls, value: float | int):
             return super().__new__(cls, value)
+
+

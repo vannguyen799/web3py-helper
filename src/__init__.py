@@ -2,7 +2,6 @@ from .web3helper import Web3Helper
 from .amounttype import AMOUNT_TYPE
 
 
-
 class RPC_URL:
     INFURA_API_KEY = 'INFURA_API_KEY'
     EthereumINFURA = f'https://mainnet.infura.io/v3/{INFURA_API_KEY}'
